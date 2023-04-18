@@ -1,0 +1,68 @@
+.main-nav {
+  background-color: var(--bg3);
+  padding: 36px 0;
+}
+
+.main-nav.navOnTop {
+  background-color: var(--bg3);
+  padding: 10px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-left {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.logo:hover {
+  --logo: var(--c1);
+}
+
+.menu-itens {
+  display: flex;
+}
+
+.menu-itens a {
+  display: block;
+  padding: 12px;
+  color: var(--bg1);
+  font-family: var(--bold);
+  font-size: 1rem;
+  transition: 0.9s;
+}
+
+.menu-itens a:hover {
+  color: var(--c1);
+  transition: 0.3s;
+}
+
+.menu-right {
+  display: flex;
+  gap: 32px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart:hover p {
+  color: var(--c1);
+}
+
+.cart:hover .cart-icon {
+  --bg1: var(--c1);
+}
+
+.cart p {
+  font-size: 1rem;
+  font-family: var(--bold);
+  color: var(--bg1);
+}

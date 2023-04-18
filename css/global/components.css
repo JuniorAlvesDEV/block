@@ -1,0 +1,107 @@
+@font-face {
+  font-family: dm-bold;
+  src: url(../../font/dm-sans/DMSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: dm-med;
+  src: url(../../font/dm-sans/DMSans-Medium.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container,
+.nav-container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.colors,
+.backgrounds {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+:root {
+  --c1: #fc5623;
+  --c2: #fdb135;
+  --c3: #1c1a17;
+  --c4: #e8420f;
+
+  --bg1: #ffffff;
+  --bg2: #eef1f3;
+  --bg3: #1c1a17;
+
+  --logo: #ffffff;
+
+  --bold: dm-bold, Arial, Helvetica, sans-serif;
+  --med: dm-med, Arial, Helvetica, sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: dm-bold, sans-serif;
+  color: var(--c3);
+}
+
+.h1 {
+  font-size: 3.75rem;
+  letter-spacing: -0.04em;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+.h3 {
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.h4 {
+  font-size: 1.625rem;
+  letter-spacing: -0.02em;
+}
+
+.h5 {
+  font-size: 1.375rem;
+}
+
+.h6 {
+  font-size: 1.125rem;
+}
+
+.p {
+  font-family: dm-med, sans-serif;
+  font-size: 1rem;
+  line-height: 165%;
+  letter-spacing: -0.02em;
+  color: var(--c3);
+  opacity: 0.75;
+}
+
+.btn1 {
+  display: block;
+  color: var(--bg1);
+  font-family: var(--bold);
+  background-color: var(--c1);
+  border-radius: 3px;
+  padding: 14px 32px;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  background-color: var(--c4);
+  transition: 0.3s;
+}
