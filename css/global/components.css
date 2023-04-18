@@ -8,31 +8,36 @@
   src: url(../../font/dm-sans/DMSans-Medium.ttf);
 }
 
+.scroll {
+  width: 100%;
+  height: 1500px;
+}
+
+body {
+  background-color: gray;
+}
+
 * {
   padding: 0;
   margin: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .container,
 .nav-container {
-  max-width: 1170px;
+  max-width: 1234px;
   margin: 0 auto;
-}
-
-.colors,
-.backgrounds {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 16px;
+  padding: 0 32px;
+  box-sizing: border-box;
 }
 
 :root {
   --c1: #fc5623;
   --c2: #fdb135;
   --c3: #1c1a17;
-  --c4: #e8420f;
+  --c4: #d73807;
 
   --bg1: #ffffff;
   --bg2: #eef1f3;
@@ -103,5 +108,5 @@
 
 .btn1:hover {
   background-color: var(--c4);
-  transition: 0.3s;
+  transition: 0.2s;
 }
