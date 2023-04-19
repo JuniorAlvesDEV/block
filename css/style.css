@@ -1,6 +1,12 @@
 @import url("./global/components.css");
 @import url("./global/menu.css");
+@import url("./global/footer.css");
 @import url("./home/header.css");
 @import url("./home/homeAbout.css");
 @import url("./home/homeProducts.css");
 @import url("./home/servicesHome.css");
+@import url("./home/projectsHome.css");
+@import url("./home/clientsHome.css");
+@import url("./home/blockService.css");
+@import url("./home/membersHome.css");
+@import url("./home/downloadHome.css");

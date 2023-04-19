@@ -61,7 +61,7 @@ img {
 .h4,
 .h5,
 .h6 {
-  font-family: dm-bold, sans-serif;
+  font-family: var(--bold);
   color: var(--c3);
 }
 
