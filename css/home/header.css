@@ -1,0 +1,28 @@
+#header {
+  padding: 195px 0 155px 0;
+  background-image: url(../../assts/imagens/banner-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header h1 {
+  color: var(--bg1);
+  margin-bottom: 16px;
+}
+
+.header p {
+  color: var(--bg1);
+  margin-bottom: 48px;
+  font-size: 1.18rem;
+}
+
+.link-header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 32px;
+}
+.link-header p {
+  margin: 0;
+}
