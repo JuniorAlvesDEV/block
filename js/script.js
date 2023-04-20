@@ -5,3 +5,5 @@ import initAnimatedScroll from "./global/animatedScroll.js";
 initMenuTop();
 initHamburguer();
 initAnimatedScroll();
+
+// window.alert("Projeto em construção");
