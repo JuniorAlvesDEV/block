@@ -1,0 +1,27 @@
+#header-pages {
+  padding: 235px 0 120px 0;
+  background-image: url(../../assts/imagens/header-bg-pages.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.scroll-test {
+  height: 500px;
+}
+
+.title-page {
+  color: var(--bg1);
+  text-align: center;
+}
+
+.title-page::after {
+  content: "";
+  display: block;
+  margin: 16px auto 0 auto;
+  border-radius: 1px;
+  width: 80px;
+  height: 2px;
+  background-color: var(--c2);
+}

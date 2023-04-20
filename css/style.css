@@ -1,6 +1,11 @@
+/* ========================================== GLOBAL CSS */
 @import url("./global/components.css");
 @import url("./global/menu.css");
+@import url("./global/header.css");
 @import url("./global/footer.css");
+
+/* ========================================== HOME CSS */
+
 @import url("./home/header.css");
 @import url("./home/homeAbout.css");
 @import url("./home/homeProducts.css");
@@ -10,3 +15,7 @@
 @import url("./home/blockService.css");
 @import url("./home/membersHome.css");
 @import url("./home/downloadHome.css");
+
+/* ========================================== SERVICES CSS */
+
+@import url("./services/services.css");
