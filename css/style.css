@@ -19,4 +19,17 @@
 /* ========================================== SERVICES CSS */
 
 @import url("./services/services.css");
-@import url("./services/construction.css");
+@import url("./services/service.css");
+
+/* ========================================== PROJECTS CSS */
+
+@import url("./projects/projects.css");
+@import url("./projects/project.css");
+
+/* ========================================== ABOUT CSS */
+
+@import url("./about/about.css");
+
+/* ========================================== ABOUT CSS */
+
+@import url("./contact/contact.css");

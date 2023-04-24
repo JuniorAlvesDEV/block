@@ -1,0 +1,85 @@
+.project-page-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 0;
+  gap: 70px;
+}
+
+.project-details {
+  padding-top: 50px;
+}
+
+.project-service {
+  opacity: 1;
+  color: var(--c1);
+  margin-bottom: 40px;
+  display: block;
+}
+
+.project-text {
+  margin-bottom: 50px;
+}
+
+.project-details h3.h5 {
+  margin-bottom: 8px;
+}
+
+.project-client {
+  margin-bottom: 24px;
+}
+
+/*  */
+
+.more-projects-page {
+  padding: 0 0 100px 0;
+}
+
+.more-projects-page .h2 {
+  margin-bottom: 100px;
+}
+
+.more-projects-page .h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  border-radius: 1px;
+  background-color: var(--c2);
+  margin-top: 16px;
+}
+
+.projects-page {
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.project-page {
+  position: relative;
+}
+
+.project img {
+  border-radius: 5px;
+}
+
+.project-description {
+  position: absolute;
+  padding: 22px 0;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  text-align: center;
+  background-color: var(--bg1);
+  border-radius: 5px;
+}
+
+.project-description .service-description {
+  opacity: 1;
+  color: var(--c1);
+}
+
+@media (max-width: 800px) {
+  .project-page-grid {
+    grid-template-columns: 1fr;
+  }
+}

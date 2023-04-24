@@ -1,0 +1,37 @@
+#projects-page {
+  padding: 100px 0;
+}
+
+.projects-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.project-page {
+  position: relative;
+}
+
+.project-page {
+  max-width: 400px;
+}
+
+.project img {
+  border-radius: 5px;
+}
+
+.project-description-page {
+  position: absolute;
+  padding: 22px 0;
+  left: 24px;
+  right: 24px;
+  bottom: 24px;
+  text-align: center;
+  background-color: var(--bg1);
+  border-radius: 5px;
+}
+
+.project-description-page .service-description-page {
+  opacity: 1;
+  color: var(--c1);
+}
